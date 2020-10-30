@@ -13,6 +13,7 @@
 		9F39C400245402D800713803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F39C3FF245402D800713803 /* Assets.xcassets */; };
 		9F39C403245402D800713803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F39C402245402D800713803 /* Preview Assets.xcassets */; };
 		9F39C406245402D800713803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F39C404245402D800713803 /* LaunchScreen.storyboard */; };
+		9F39C40E2454127A00713803 /* BerandaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39C40D2454127A00713803 /* BerandaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F39C402245402D800713803 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F39C405245402D800713803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F39C407245402D800713803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F39C40D2454127A00713803 /* BerandaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerandaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9F39C3F9245402D300713803 /* AppDelegate.swift */,
 				9F39C3FB245402D300713803 /* SceneDelegate.swift */,
 				9F39C3FD245402D300713803 /* ContentView.swift */,
+				9F39C40D2454127A00713803 /* BerandaView.swift */,
 				9F39C3FF245402D800713803 /* Assets.xcassets */,
 				9F39C404245402D800713803 /* LaunchScreen.storyboard */,
 				9F39C407245402D800713803 /* Info.plist */,
@@ -102,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Izzan Oktiadi";
 				TargetAttributes = {
 					9F39C3F5245402D300713803 = {
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F39C40E2454127A00713803 /* BerandaView.swift in Sources */,
 				9F39C3FA245402D300713803 /* AppDelegate.swift in Sources */,
 				9F39C3FC245402D300713803 /* SceneDelegate.swift in Sources */,
 				9F39C3FE245402D300713803 /* ContentView.swift in Sources */,
@@ -192,6 +196,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +257,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
